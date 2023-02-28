@@ -27,5 +27,14 @@ html, body {
 	height: 80%;
 	background-color: lightblue;
 }
+.inner-left {
+	text-align: left;
+	justify-content: left;
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	background-color: lightblue;
+}
 p {text-align: center;}
 div {text-align: center;}
+
