@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -10,21 +10,22 @@
 
 <body>
 
-<h2>While Practice</h2>
+<h1>While Practice</h1>
 
 <div class="outerl">
-<div class="outerk"></div>
+<div class="outerk"><p></p></div>
 <div class="inner-left">
 <form>
-  int i = <input type="text" id="begval" name="begval">;</br>
-  while (i <input type="text" id="endcond" name="endcond" size=2><input type="text" id="endval" name="endval">) {<br>
+  int i = <input type="text" id="begval" name="begval" aria-label="Beginning Value">;</br>
+  while (i <input type="text" id="endcond" name="endcond" aria-label="Comparison Operator" size=2><input type="text" id="endval" name="endval" aria-label="Value it is comparing to"> ) {<br>
   &nbsp &nbsp &nbsp   std::cout << i  << " ";<br>
-	&nbsp &nbsp &nbsp i = i <input type="text" id="operator" name="operator" size=2><input type="text" id="changeval" name="changeval">;<br>
+	&nbsp &nbsp &nbsp i = i <input type="text" id="operator" name="operator" aria-label="Operator used to change the i variable" size=2><input type="text" id="changeval" name="changeval" aria-label="How much the value will change">;<br>
    }<br>
    std::cout << "done" << std::endl; 
    <p></p>
-  <input type="button" id = "check" value="Check">
 </form> 
+<div class="button-section"><input type="button" id = "check" value="Check">
+</div>
   <p></p>
 <div id="hints">Welcome to While Practice! You can change
 the values for the while loop. Click "Check" to see what it does.</div>
