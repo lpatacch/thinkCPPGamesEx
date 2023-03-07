@@ -60,4 +60,6 @@ p {text-align: center;}
 .inner-left-wide {
 width: 95%;
 }
+#sortableTrash { width: 95%; }
+#sortable { width: 95%; }
 }
