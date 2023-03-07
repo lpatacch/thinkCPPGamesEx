@@ -33,6 +33,14 @@ html, body {
 	height: 80%;
 	background-color: lightblue;
 }
+.inner-left-wide {
+	text-align: left;
+	justify-content: left;
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	background-color: lightblue;
+}
 .button-section {
 	text-align: center;
 	justify-content: center;	
@@ -47,5 +55,9 @@ p {text-align: center;}
 .inner-left {
 	width: 95%;
 }
-
+}
+@media (max-width: 599px) {
+.inner-left-wide {
+width: 95%;
+}
 }
