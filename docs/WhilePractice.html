@@ -17,9 +17,17 @@
 <div class="inner-left">
 <form>
   int i = <input type="text" id="begval" name="begval" aria-label="Beginning Value">;</br>
-  while (i <input type="text" id="endcond" name="endcond" aria-label="Comparison Operator" size=2><input type="text" id="endval" name="endval" aria-label="Value it is comparing to"> ) {<br>
+  while (i <select type="text" id="endcond" name="endcond" aria-label="Comparison Operator">
+  <option value="==">==</option><option value="!=">!=</option><option value="<">&lt</option>
+  <option value="<=">&lt=</option><option value=">">&gt</option><option value="<=">&gt=</option>
+  </select>
+  <input type="text" id="endval" name="endval" aria-label="Value it is comparing to"> ) {<br>
   &nbsp &nbsp &nbsp   std::cout << i  << " ";<br>
-	&nbsp &nbsp &nbsp i = i <input type="text" id="operator" name="operator" aria-label="Operator used to change the i variable" size=2><input type="text" id="changeval" name="changeval" aria-label="How much the value will change">;<br>
+	&nbsp &nbsp &nbsp i = i <select type="text" id="operator" name="operator" aria-label="Operator used to change the i variable">
+	<option value="+">+</option><option value="-">-</option><option value="*">*</option>
+	<option value="\">\</option><option value="%">%</option>
+  </select>
+	<input type="text" id="changeval" name="changeval" aria-label="How much the value will change">;<br>
    }<br>
    std::cout << "done" << std::endl; 
    <p></p>
